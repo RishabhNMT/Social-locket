@@ -3,6 +3,7 @@ import '../ComingSoon/Coming.css'
 import logo from '../ComingSoon/Comindimage/logo.png'
 import { RestService } from '../Services/RestService';
 
+
 const ComingSoon = () => {
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState(false);
@@ -44,14 +45,14 @@ const ComingSoon = () => {
                 <div className="coming-soon-msg">
 
                     {message ? <div id="thankyou_msg">
-                        <img src={logo} alt="logo" width="126" height="126" />
+                        <img src={logo} alt="logo" width="200" height="84" />
                         <h2>Thank You</h2>
                         <p>We're coming soon! We're working on our brand new website and will be launching soon. Do not miss it,
                             subscribe below to keep updated.</p>
 
                     </div> :
                         <div id="coming_msg">
-                            <img src={logo} alt="logo" width="126" height="126" />
+                            <img src={logo} alt="logo" width="200" height="84" />
                             <h2>Coming Soon</h2>
                             <p>We're coming soon! We're working on our brand new website and will be launching soon. Do not miss it,
                                 subscribe below to keep updated.</p>
