@@ -102,7 +102,7 @@ const ComingSoon = () => {
                                 <input type="email" id="email" name="email" value={email}
                                     onChange={validateEmail} placeholder="Enter your email" />
                                 <button type="button" id="subcribe" onClick={subscribe_click}>Subscribe</button>
-                            </div> <span style={{ color: 'white' }}>{emailError}</span>
+                            </div> <span style={{ color: '#cf8080' }}>{emailError}</span>
                         </div>
                     }
                 </div>
